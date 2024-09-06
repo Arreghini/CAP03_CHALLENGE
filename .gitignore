@@ -1,0 +1,52 @@
+# Logs
+logs/
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+tmp/
+temp/
+
+# Archivos de entornos virtuales
+.venv/
+venv/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Configuración de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos específicos de herramientas UML
+*.uml~
+*.bak
+*.backup
+*.autosave
+
+# Generados por herramientas UML (e.g., PlantUML, Lucidchart)
+output/
+diagrams/
+exported/
+generated/
+
+# Archivos de configuración de herramientas UML
+*.umlconfig
+*.umlsettings
+
+# Archivos binarios o exportados
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# Cache o temporales de herramientas de gráficos
+.cache/
+.plantuml.cache/
